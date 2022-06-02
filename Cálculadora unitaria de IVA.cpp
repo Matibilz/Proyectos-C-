@@ -1,4 +1,4 @@
-/*Escribe un programa que lea de la entrada est·ndar el precio de un producto y muestre en la salida est·ndar el precio del producto al aplicarle el IVA */
+/*Escribe un programa que lea de la entrada est√°ndar el precio de un producto y muestre en la salida est√°ndar el precio del producto al aplicarle el IVA */
 
 #include <iostream>
 using namespace std;
@@ -15,7 +15,7 @@ main (){
 	//Calculo de precio con IVA.
 	iva_del_producto = ((precio_sin_iva * 19)/100);
 	
-	printf ("El IVA del producto es: %.2f \n", iva_del_producto);
+	printf ("El IVA del producto es: %.2f precio\n", iva_del_producto);
 	
 	//Sumamos el IVA al producto
 	precio_agregado_iva = precio_sin_iva + iva_del_producto;
